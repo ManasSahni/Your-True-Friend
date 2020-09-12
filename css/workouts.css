@@ -1,0 +1,535 @@
+.navbar{
+  background-image:linear-gradient(to bottom right,rgba(32, 178, 170,0.5),#198DA4);
+  font-family: 'Work Sans', sans-serif;
+  min-height:70px;
+}
+
+.nav-item{
+  font-size: 18px;
+  margin: 0px;
+}
+
+#navitems{
+  color: white;
+  font-size:20px;
+  margin: auto 5px; 
+}
+
+#navitems:hover{
+  color:#00FFFF;
+}
+
+.links{
+	position:relative;
+	left:300px;
+}
+
+#textarea{
+  width:100%;
+  border-radius: 2px;
+  background-color: #f0f0f0;
+}
+
+#workout-image{
+	min-width:100%;
+	height:700px;
+	background-image:url("../img/yoga-on-grass.jpg");
+
+	filter:contrast(110%) brightness(110%);
+}
+
+
+#workout-image-text{
+	position:absolute;
+	top:30%;
+	left:27%;
+	color:black;
+	background-color: white;
+	font-size: 5vw;
+	font-weight:bold;
+	mix-blend-mode: screen;
+}
+
+.btn1{
+	position:absolute;
+	top:55%;
+	left:35%;
+	color:white;
+	background-image:linear-gradient(to bottom right,#6495ED,#28A1CC,#07B0ED,#30D5C8);
+	font-size:25px;
+	padding:12px 35px;
+	border-radius:5px;
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+	margin: auto 5px;
+	transition:0.2s ease;
+	border:cyan 2px solid;
+}
+
+.btn2{
+	position:absolute;
+	top:55%;
+	left:45%;
+	color:white;
+	background-image:linear-gradient(to bottom right,#6495ED,#28A1CC,#07B0ED,#30D5C8);
+	font-size:25px;
+	padding:12px 35px;
+	border-radius:5px;
+	text-decoration:none;
+	font-family: 'Josefin Sans', sans-serif;
+	transition:0.2s ease;
+	margin-left:50px;
+	border:cyan 2px solid;
+}
+
+.btn1:hover{
+	color:cyan;
+	background-image:linear-gradient(to bottom right,#1D4A54,#4C6A70,#327C8B,#198DA4);
+	text-decoration:none;
+}
+
+.btn2:hover{
+	color:cyan;
+	background-image:linear-gradient(to bottom right,#1D4A54,#4C6A70,#327C8B,#198DA4);
+	text-decoration:none;
+}
+
+#workout-jumbo-1{
+	min-width:100%;
+	height:600px;
+	background-repeat:no-repeat;
+	margin-bottom:0;
+	padding-top:50px;
+	color:#DE3163;
+	border-top:10px solid #DE3163;
+	border-bottom:10px solid #DE3163;
+}
+
+#workout-jumbo-2{
+	min-width:100%;
+	height:600px;
+	margin-bottom:0;
+	padding-top:50px;
+	color:#DE3163;	
+	border-top:10px solid #DE3163;
+	border-bottom:10px solid #DE3163;
+}
+.content-boxes{
+  height: 440px;
+  margin-top:30px;
+  background-color:white;
+  border-radius:7px;
+  margin:20px auto;
+  box-shadow: 5px 7px 10px 1px #B2BEB5;
+  transition:0.4s;
+  border:2px solid #20B2AA;
+}
+
+.image1{
+	height:220px;
+	background-image:url("../img/plank1.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.content-boxes:hover{
+  box-shadow: 5px 8px 8px 8px #A9A9A9;
+  transition:0.5s ease;
+  opacity:0.8;
+}
+
+.image-detail{
+	font-family: 'Work Sans', sans-serif;
+	text-align:center;
+	padding-top:50px;
+	height:220px;
+	color:white;
+	background-image:linear-gradient(to bottom right,#1D4A54,#4C6A70,#327C8B,#198DA4);
+	border-bottom-left-radius:7px;
+	border-bottom-right-radius:7px;
+}
+
+#no-padding{
+	padding:0;
+}
+
+footer {
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;
+}
+
+.image2{
+	position:relative;
+	left:50px;
+	height:220px;
+	background-image:url("../img/jumping-jacks.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image3{
+	position:relative;
+	left:50px;
+	top:20px;
+	height:220px;
+	background-image:url("../img/crescent-moon-stretch.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image4{
+	position:relative;
+	left:50px;
+	top:20px;
+	height:220px;
+	background-image:url("../img/pilates rollover.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image5{
+	height:220px;
+	background-image:url("../img/pushup1.jpg");
+	background-repeat:no-repeat;
+	position:relative;
+	left:40px;
+	border-radius:7px;
+}
+
+.image6{
+	height:220px;
+	background-image:url("../img/plank1.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image7{
+	position:relative;
+	left:50px;
+	top:20px;
+	height:220px;
+	background-image:url("../img/pilates rollover.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image8{
+	position:relative;
+	left:50px;
+	height:220px;
+	background-image:url("../img/jumping-jacks.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image9{
+	position:relative;
+	left:50px;
+	height:220px;
+	background-image:url("../img/pushup1.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image10{
+	position:relative;
+	left:50px;
+	top:20px;
+	height:220px;
+	background-image:url("../img/crescent-moon-stretch.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image11{
+	height:220px;
+	background-image:url("../img/plank1.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+.image12{
+	position:relative;
+	left:50px;
+	top:20px;
+	height:220px;
+	background-image:url("../img/pushup1.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+.image13{
+	height:220px;
+	background-image:url("../img/plank1.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+.image14{
+	position:relative;
+	left:50px;
+	top:20px;
+	height:220px;
+	background-image:url("../img/crescent-moon-stretch.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+.image15{
+	height:220px;
+	background-image:url("../img/plank1.jpg");
+	background-repeat:no-repeat;
+	border-radius:7px;
+}
+
+@media (max-width:1000px) {
+  .image1 {
+	position:relative;
+	left:25%;
+  }
+}
+
+@media (max-width:1000px) {
+  .image2 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image3 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image4 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image5 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image6 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image7 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image8 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image9 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image10 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image11 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image12 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image13 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image14 {
+	position:relative;
+	left:25%;
+  }
+}
+@media (max-width:1000px) {
+  .image15 {
+	position:relative;
+	left:25%;
+  }
+}
+
+@media (max-width:1000px){
+	.vv {
+		display:none;
+  }
+}
+
+@media (max-width:1000px){
+	.dd {
+		width:750px;
+  }
+}
+
+@media (max-width:1000px){
+	.n {
+		position:absolute;
+		top:10%;
+		left:10%;
+  }
+}
+
+
+@keyframes fadeIn {
+	from{
+		opacity:0;
+	}
+	
+	to {
+		opacity:1;
+	}
+}
+
+#bmi{
+	height:500px;
+	width:400px;
+	background-color:#00bcd4;
+}
+.bmi-table{
+	color:#8675a9;
+	text-align:center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:35px;
+	font-weight:bold;
+}
+
+.bmi-text{
+	width:250px;
+	border:cyan 4px solid;
+	border-radius:4px;
+	
+}
+
+#bmi{
+	animation:lighting 1s infinite;
+	text-align:center;
+	padding-top:50px;
+}
+
+#submit{
+	background-image:linear-gradient(to bottom right, #40a8c4, purple);
+	margin-top:15px;
+	color:white;
+	padding:10px;
+	border: 2px white solid;
+	border-radius:5px;
+}
+
+#submit:hover{
+	background-image:linear-gradient(to bottom right,cyan,#40a8c4);
+	color:#07689f;
+}
+
+@keyframes lighting{
+	from{
+		border:solid 6px #FDFD96;
+	}
+	
+	to {
+		border:solid 6px #66FF00;
+	}
+}
+
+#workout-jumbo-2{
+	animation: backlight 6s infinite;
+}
+
+@keyframes backlight{
+	from{
+		background-color:#8675a9;
+		color:white;
+	}
+	
+	to {
+		background-color:#ddf3f5;
+		color:#002147;
+	}
+}
+
+.dd{
+	margin:50px auto;	
+}
+
+.title{
+	padding:20px;
+	text-align:center;
+	font-size:60px;
+	font-family: 'Josefin Sans', sans-serif; 
+	margin-top:100px;
+	background-color:cyan; 
+}
+
+.h{
+	font-weight:bold;
+	color:#69359C;
+}
+
+.colourful{
+	animation: colours 2s infinite;
+}
+
+.colourful:hover{
+	text-decoration:none;
+}
+
+@keyframes colours {
+  0%   { color: #00FF6F;}
+  25%  { color: cyan;}
+  50%  { color: yellow;}
+  75%  { color: #00FF6F;}
+  100% { color: red;}
+}
+
+.main-front{
+}
+
+.box{
+	position:relative;
+	top:100px;
+	font-size:25px;
+	font-family:'Work Sans',sans-serif;
+}
+
+#effect{
+    background-color: rgba(0, 0, 0, 0.4);
+	color:white;
+	font-family:'Josefin Sans',cursive;
+	margin-top:20px;
+}
+
+#lone-image{
+	background-image:url('../img/lonely2.jpg');
+	height:700px;
+}
+
+#fear-image{
+	background-image:url('../img/fear.jpg');
+	height:700px;
+
+}
+	
