@@ -1,5 +1,5 @@
 # Your-True-Friend
-Our website "Your True Friend" is a complete solution for students to help them get out of the problems and loneliness they are facing in this harsh time of Covid Outbreak . We are ready to help students reaching us in every possible way.  
+The Website "Your True Friend" is a complete solution for students to help them get out of the problems and loneliness they are facing in this harsh time of Covid Outbreak . We are ready to help students reaching us in every possible way.  
 We help students in the following ways :
 
 1. Giving them crucial tips on managing Online Classes and Self Study at home.
